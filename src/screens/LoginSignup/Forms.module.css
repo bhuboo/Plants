@@ -1,10 +1,13 @@
 .LoginForm {
     width: 55%;
-    height: 71%;
+    height: 81%;
     background-color: #fbfbfb !important;
+    border-radius: 45px;
 }
 
 .LoginForm h3 {
+    text-align: center;
+    margin-top: 5%;
     color: #000;
     font-size: 30px;
     font-style: normal;
@@ -12,6 +15,7 @@
 }
 
 .LoginForm h6 {
+    text-align: center;
     color: #000;
     font-style: normal;
     font-weight: 500;

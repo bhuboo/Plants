@@ -33,7 +33,7 @@ export default function LoginSignup({ childers }) {
     return (
         <div className='container-fluid'>
             <div className='row'>
-                <div className='col-6 d-flex justify-content-center align-items-center'>
+                <div className='col-6 d-flex justify-content-center align-items-center' style={{ marginTop: '-2%' }}>
                     {childers}
                 </div>
                 <div className='col-6' style={backgroundImageStyle}>
