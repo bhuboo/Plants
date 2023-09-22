@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import BgImage from '../assests/Loginimg.jpg';
-
+import styles from './LoginSignup.module.css'
 
 export default function LoginSignup({ childers }) {
 
@@ -33,10 +33,10 @@ export default function LoginSignup({ childers }) {
     return (
         <div className='container-fluid'>
             <div className='row'>
-                <div className='col-6 d-flex justify-content-center align-items-center' style={{ marginTop: '-2%' }}>
+                <div className={`col-md-6 col-sm-12 d-flex justify-content-center align-items-center ${styles.subcontainerone}`} >
                     {childers}
                 </div>
-                <div className='col-6' style={backgroundImageStyle}>
+                <div className={`col-md-6 ${styles.subcontainersecond}`} style={backgroundImageStyle}>
                 </div>
             </div>
         </div>

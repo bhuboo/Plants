@@ -139,3 +139,22 @@
     font-style: normal;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+    .LoginForm {
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .LoginForm h3 {
+        font-size: 24px;
+    }
+
+    .LoginForm h6 {
+        font-size: 10px;
+    }
+
+    .buttonauth .buttonauthsmall {
+        padding-left: 0px;
+    }
+}

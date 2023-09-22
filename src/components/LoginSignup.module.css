@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .subcontainerone {
+        background-image: url(../assests/Loginimg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .subcontainersecond {
+        display: none !important;
+    }
+}
