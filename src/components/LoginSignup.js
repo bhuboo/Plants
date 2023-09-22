@@ -32,7 +32,7 @@ export default function LoginSignup({ childers }) {
     }, []);
     return (
         <div className='container-fluid'>
-            <div className='row'>
+            <div className='row' style={{ minHeight: screenWidth, height: '100%' }}>
                 <div className={`col-md-6 col-sm-12 d-flex justify-content-center align-items-center ${styles.subcontainerone}`} >
                     {childers}
                 </div>
